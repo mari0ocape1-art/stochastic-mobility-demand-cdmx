@@ -10,7 +10,7 @@ The architecture processes **402+ Million high-frequency telemetry GPS records**
 
 The analytics engine is structured around a **Kimball Conformed Constellation (Galaxy Schema)**. It decouples individual transactional flows into independent business processes linked through universal temporal and Uber H3 geospatial keys, completely eliminating data duplication and write-lock bottlenecks.
 
-![Data Warehouse Constellation Schema](docs/constellation_schema_render.png)
+![Data Warehouse Constellation Schema](constellation_schema_render.png)
 
 ### Star Schema Components
 
