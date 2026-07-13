@@ -22,7 +22,7 @@ The analytics engine is structured around a **Kimball Conformed Constellation (G
 #### Conformed Dimensions (Universal Master Catalogs)
 * **`dim_time`:** Chronological master matrix bucketed into discrete 5-minute interval blocks with rush-hour and weekend analytical flags.
 * **`dim_geography`:** Spatial master maps translating high-resolution Uber H3 Resolution 9 global hexagons into geographical centroids (Latitude/Longitude) for localized corridor analytics.
-* **`dim_user` & `dim_driver`:** Descriptive master catalogs mapping customer psychological profiles and operator vehicular tiers to preserve referential consistency across facts.
+* **`dim_user` & `dim_driver`:** Descriptive catalogs mapping customer psychological profiles and operator vehicular tiers to preserve referential consistency across facts.
 
 ---
 
